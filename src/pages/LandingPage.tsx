@@ -164,12 +164,6 @@ function Hero() {
           <span className={styles.mediaBadge}>Media Feature</span>
           <span className={styles.mediaBadge}>Media Feature</span>
         </div>
-        
-        <div className={styles.trustIndicator}>
-          <span>Trusted by 130+</span>
-          <span className={styles.stars}>⭐⭐⭐⭐⭐</span>
-          <span>Google Reviews</span>
-        </div>
       </div>
     </section>
   );
