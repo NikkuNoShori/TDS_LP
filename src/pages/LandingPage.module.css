@@ -986,6 +986,7 @@
 
   .hero {
     padding: 8rem 3rem 5rem;
+    min-height: auto;
   }
 
   .section {
