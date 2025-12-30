@@ -992,6 +992,10 @@
     padding: 5rem 3rem;
   }
 
+  .sectionLight {
+    padding-top: 2rem;
+  }
+
   .heroAttention {
     font-size: 1.2rem;
   }
