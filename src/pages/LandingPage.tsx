@@ -147,13 +147,13 @@ function Hero() {
   return (
     <section id="hero" className={styles.hero}>
       <div className={styles.heroContent}>
-        <h1 className={styles.heroHeadline}>
+        <p className={styles.heroAttention}>
           Attention: Taxpayers & Business Owners With{' '}
           <span className={styles.heroHeadlineHighlight}>$10,000+ In IRS Debt</span>
-        </h1>
-        <p className={styles.heroSubheadline}>
-          One Call Shows You How Clients Eliminated $9,976, $38,000, Even $159,000 In Tax Debt And Whether You Qualify For A Settlement
         </p>
+        <h1 className={styles.heroHeadline}>
+          One Call Shows You How Clients Eliminated $9,976, $38,000, Even $159,000 In Tax Debt And Whether You Qualify For A Settlement
+        </h1>
         <a href="#contact" className={styles.heroCta}>
           Apply to See If You Qualify
         </a>

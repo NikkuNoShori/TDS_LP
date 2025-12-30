@@ -90,8 +90,17 @@
   z-index: 1;
 }
 
+.heroAttention {
+  font-size: 1rem;
+  font-weight: 700;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
 .heroHeadline {
-  font-size: 1.75rem;
+  font-size: 2.8rem;
   font-weight: 800;
   color: var(--white);
   margin-bottom: 1.5rem;
@@ -901,10 +910,14 @@
 }
 
 @media (min-width: 640px) {
-  .heroHeadline {
-    font-size: 2.25rem;
+  .heroAttention {
+    font-size: 1.1rem;
   }
-  
+
+  .heroHeadline {
+    font-size: 3rem;
+  }
+
   .heroSubheadline {
     font-size: 1.2rem;
   }
@@ -936,9 +949,13 @@
   .hero {
     padding: 8rem 2rem 5rem;
   }
-  
+
+  .heroAttention {
+    font-size: 1.15rem;
+  }
+
   .heroHeadline {
-    font-size: 2.5rem;
+    font-size: 3.2rem;
   }
   
   .section {
@@ -975,8 +992,12 @@
     padding: 5rem 3rem;
   }
 
+  .heroAttention {
+    font-size: 1.2rem;
+  }
+
   .heroHeadline {
-    font-size: 2.75rem;
+    font-size: 3.5rem;
   }
   
   .heroSubheadline {
