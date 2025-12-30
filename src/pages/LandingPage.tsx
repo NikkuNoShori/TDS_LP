@@ -174,7 +174,7 @@ function Services() {
     <section className={`${styles.section} ${styles.sectionLight}`}>
       <div className={styles.container}>
         <h2 className={`${styles.sectionTitle} ${styles.sectionTitleDark}`}>
-          Our 5-Step Process to Tax Debt Resolution
+          Trusted by 130+ ⭐⭐⭐⭐⭐ Google Reviews: Our 5-Step Process to Tax Debt Resolution
         </h2>
         <p className={styles.sectionSubtitle}>
           A clear, structured approach designed to move your case toward resolution
