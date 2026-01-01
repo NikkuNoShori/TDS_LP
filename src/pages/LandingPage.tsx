@@ -178,8 +178,8 @@ function Hero() {
               className={styles.heroPlaceholderImage}
             />
           </div>
-          <div className={styles.heroPlaceholderFrame}>
-            <p className={styles.placeholderText}>Saved our Clients $50 Million+ in Tax Debt</p>
+          <div className={styles.heroHighlightFrame}>
+            <p className={styles.heroHighlightText}>Saved our Clients $50 Million+ in Tax Debt</p>
           </div>
         </div>
       </div>
