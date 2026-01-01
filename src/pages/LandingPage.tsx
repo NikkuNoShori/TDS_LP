@@ -643,9 +643,9 @@ export default function LandingPage() {
         <Eligibility />
         <AboutUs />
         <ComparisonTable />
+        <ContactForm />
         <FAQ />
         <Summary />
-        <ContactForm />
       </main>
       <Footer />
     </>
