@@ -59,13 +59,17 @@ export default function ComparisonTable() {
               {comparisonData.map((row, index) => (
                 <tr key={index} className={styles.tableRow}>
                   <td className={styles.categoryCell}>{row.category}</td>
-                  <td className={styles.tdsCellPositive}>
-                    <span className={styles.checkmark}>✓</span>
-                    <span>{row.tds}</span>
+                  <td className={styles.tdsCell}>
+                    <div className={styles.cellContent}>
+                      <span className={styles.checkmark}>✓</span>
+                      <span>{row.tds}</span>
+                    </div>
                   </td>
-                  <td className={styles.oldWayCellNegative}>
-                    <span className={styles.crossmark}>✗</span>
-                    <span>{row.oldWay}</span>
+                  <td className={styles.oldWayCell}>
+                    <div className={styles.cellContent}>
+                      <span className={styles.crossmark}>✗</span>
+                      <span>{row.oldWay}</span>
+                    </div>
                   </td>
                 </tr>
               ))}

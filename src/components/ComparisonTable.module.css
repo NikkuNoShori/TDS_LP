@@ -28,6 +28,7 @@
   width: 100%;
   border-collapse: collapse;
   font-size: 0.95rem;
+  table-layout: fixed;
 }
 
 .comparisonTable thead {
@@ -76,15 +77,18 @@
   font-weight: 600;
   color: #0F3A5A;
   background-color: #f8f9fa;
+  width: 25%;
 }
 
-.tdsCellPositive {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.75rem;
+.tdsCell {
+  width: 37.5%;
 }
 
-.oldWayCellNegative {
+.oldWayCell {
+  width: 37.5%;
+}
+
+.cellContent {
   display: flex;
   align-items: flex-start;
   gap: 0.75rem;
@@ -106,8 +110,7 @@
   line-height: 1;
 }
 
-.tdsCellPositive span:last-child,
-.oldWayCellNegative span:last-child {
+.cellContent span:last-child {
   line-height: 1.6;
   color: #333;
 }
@@ -177,8 +180,7 @@
     padding: 0.75rem;
   }
 
-  .tdsCellPositive,
-  .oldWayCellNegative {
+  .cellContent {
     gap: 0.5rem;
   }
 }
