@@ -137,7 +137,7 @@ function Header() {
       </a>
       <img src={IMAGES.headerCenter} alt="Center banner" className={styles.headerCenterImage} />
       <a href="#contact" className={styles.headerCta}>
-        Get Started
+        Apply To See If You Qualify
       </a>
     </header>
   );
@@ -155,7 +155,7 @@ function Hero() {
           One Call Shows You How Clients Eliminated $9,976, $38,000, Even $159,000 In Tax Debt And Whether You Qualify For A Settlement
         </h1>
         <a href="#contact" className={styles.heroCta}>
-          Apply to See If You Qualify
+          Apply To See If You Qualify
         </a>
         <p className={styles.heroCtaSubtext}>100% Complimentary Consultation. No Commitments.</p>
 
@@ -201,7 +201,7 @@ function Services() {
         </div>
         <div style={{ textAlign: 'center' }}>
           <a href="#contact" className={styles.ctaButton}>
-            Start Your Free Consultation
+            Apply To See If You Qualify
           </a>
           <p className={styles.ctaSubtext}>100% Complimentary. No Commitments.</p>
         </div>
@@ -247,7 +247,7 @@ function Benefits() {
         </div>
         <div style={{ textAlign: 'center' }}>
           <a href="#contact" className={styles.ctaButton}>
-            See If You Qualify
+            Apply To See If You Qualify
           </a>
           <p className={`${styles.ctaSubtext} ${styles.ctaSubtextLight}`}>
             100% Complimentary Consultation. No Commitments.
@@ -278,7 +278,7 @@ function WhyChooseUs() {
         </div>
         <div style={{ textAlign: 'center' }}>
           <a href="#contact" className={styles.ctaButton}>
-            Schedule Your Free Consultation
+            Apply To See If You Qualify
           </a>
           <p className={styles.ctaSubtext}>100% Complimentary. No Commitments.</p>
         </div>
@@ -452,7 +452,7 @@ function SuccessStories() {
 
         <div style={{ textAlign: 'center' }}>
           <a href="#contact" className={styles.ctaButton}>
-            Join Our Success Stories
+            Apply To See If You Qualify
           </a>
           <p className={`${styles.ctaSubtext} ${styles.ctaSubtextLight}`}>
             100% Complimentary Consultation. No Commitments.
@@ -496,7 +496,7 @@ function Eligibility() {
           
           <div style={{ textAlign: 'center' }}>
             <a href="#contact" className={styles.ctaButton}>
-              Check Your Eligibility Now
+              Apply To See If You Qualify
             </a>
             <p className={styles.ctaSubtext}>100% Complimentary. No Commitments.</p>
           </div>
@@ -559,7 +559,7 @@ function FAQ() {
         </div>
         <div style={{ textAlign: 'center' }}>
           <a href="#contact" className={styles.ctaButton}>
-            Have More Questions? Let's Talk
+            Apply To See If You Qualify
           </a>
           <p className={styles.ctaSubtext}>100% Complimentary Consultation. No Commitments.</p>
         </div>
