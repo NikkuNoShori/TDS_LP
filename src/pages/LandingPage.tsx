@@ -166,13 +166,6 @@ function Hero() {
         <div className={styles.heroPlaceholders}>
           <div className={styles.heroPlaceholderFrame}>
             <img
-              src="https://oizwp2vdbx.ufs.sh/f/xvvPJ5nZe4Am2YyPPGKd0zsSp3U8N9TIWcgoFbuORKwqkGA1"
-              alt="Tax debt relief testimonial"
-              className={styles.heroPlaceholderImage}
-            />
-          </div>
-          <div className={styles.heroPlaceholderFrame}>
-            <img
               src="https://oizwp2vdbx.ufs.sh/f/xvvPJ5nZe4AmHcGuqpmsZYXMKcSLkt450ofygDRJdPn8NhVi"
               alt="Tax debt relief testimonial"
               className={styles.heroPlaceholderImage}
