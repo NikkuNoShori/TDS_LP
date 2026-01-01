@@ -824,7 +824,7 @@
 
 /* Contact Form */
 .contactSection {
-  background: linear-gradient(180deg, var(--gray-light) 0%, var(--white) 100%);
+  background: var(--dark-blue);
 }
 
 .contactContent {
@@ -835,7 +835,7 @@
 
 .contactFormPlaceholder {
   background: var(--white);
-  border: 2px dashed rgba(15, 58, 90, 0.2);
+  border: 2px dashed rgba(255, 255, 255, 0.3);
   border-radius: 12px;
   padding: 3rem 2rem;
   margin-top: 2rem;

@@ -591,10 +591,10 @@ function ContactForm() {
     <section id="contact" className={`${styles.section} ${styles.contactSection}`}>
       <div className={styles.container}>
         <div className={styles.contactContent}>
-          <h2 className={`${styles.sectionTitle} ${styles.sectionTitleDark}`}>
+          <h2 className={`${styles.sectionTitle} ${styles.sectionTitleLight}`}>
             Apply to See If You Qualify
           </h2>
-          <p className={styles.sectionSubtitle}>
+          <p className={`${styles.sectionSubtitle} ${styles.sectionSubtitleLight}`}>
             100% Complimentary Consultation. No Commitments.
           </p>
           <div className={styles.contactFormPlaceholder}>
