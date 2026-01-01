@@ -78,8 +78,13 @@
   background-color: #f8f9fa;
 }
 
-.tdsCell,
-.oldWayCell {
+.tdsCellPositive {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.oldWayCellNegative {
   display: flex;
   align-items: flex-start;
   gap: 0.75rem;
@@ -101,8 +106,8 @@
   line-height: 1;
 }
 
-.tdsCell span:last-child,
-.oldWayCell span:last-child {
+.tdsCellPositive span:last-child,
+.oldWayCellNegative span:last-child {
   line-height: 1.6;
   color: #333;
 }
@@ -172,8 +177,8 @@
     padding: 0.75rem;
   }
 
-  .tdsCell,
-  .oldWayCell {
+  .tdsCellPositive,
+  .oldWayCellNegative {
     gap: 0.5rem;
   }
 }
