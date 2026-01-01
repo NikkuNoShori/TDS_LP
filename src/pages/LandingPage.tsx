@@ -179,7 +179,7 @@ function Hero() {
             />
           </div>
           <div className={styles.heroPlaceholderFrame}>
-            <p className={styles.placeholderText}>Image Placeholder 3</p>
+            <p className={styles.placeholderText}>Saved our Clients $50 Million+ in Tax Debt</p>
           </div>
         </div>
       </div>
