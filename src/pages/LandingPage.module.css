@@ -1020,6 +1020,12 @@
   .eligibilityDescriptionSecond {
     margin-top: 1.5rem;
   }
+
+  .aboutTextSecond,
+  .aboutTextThird,
+  .aboutTextFourth {
+    margin-top: 1.5rem;
+  }
 }
 
 /* Small Devices (375px - 480px) */
@@ -1189,6 +1195,12 @@
 
   .aboutText {
     font-size: 1rem;
+  }
+
+  .aboutTextSecond,
+  .aboutTextThird,
+  .aboutTextFourth {
+    margin-top: 1.5rem;
   }
 
   .eligibilityDescription {

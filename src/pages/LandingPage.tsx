@@ -323,7 +323,16 @@ function AboutUs() {
             About Us
           </h2>
           <p className={styles.aboutText}>
-            Tax Debt Services was founded in 2014 by Andrew Sallee and Dusty Wetton with a simple mission: make legitimate tax debt help accessible to people who actually need it. They recognized a major gap in the industry, where many qualified taxpayers were being priced out of professional help due to high upfront fees and one-size-fits-all solutions. By offering affordable monthly payment options and a clear, structured process, Tax Debt Services made it possible for individuals and business owners to get real representation without taking on additional financial strain. Since then, the firm has helped hundreds of clients navigate IRS and state tax issues with clarity, professionalism, and respect. Today, Tax Debt Services is trusted by clients nationwide and backed by 130+ five-star Google reviews, reflecting a consistent commitment to honest guidance, responsive communication, and real results. The focus has never been on pressure or promises, but on helping people understand their options and move forward with confidence.
+            Tax Debt Services was founded in 2014 by Andrew Sallee and Dusty Wetton with a simple mission: make legitimate tax debt help accessible to people who actually need it. They recognized a major gap in the industry, where many qualified taxpayers were being priced out of professional help due to high upfront fees and one-size-fits-all solutions.
+          </p>
+          <p className={`${styles.aboutText} ${styles.aboutTextSecond}`}>
+            By offering affordable monthly payment options and a clear, structured process, Tax Debt Services made it possible for individuals and business owners to get real representation without taking on additional financial strain.
+          </p>
+          <p className={`${styles.aboutText} ${styles.aboutTextThird}`}>
+            Since then, the firm has helped hundreds of clients navigate IRS and state tax issues with clarity, professionalism, and respect.
+          </p>
+          <p className={`${styles.aboutText} ${styles.aboutTextFourth}`}>
+            Today, Tax Debt Services is trusted by clients nationwide and backed by 130+ five-star Google reviews, reflecting a consistent commitment to honest guidance, responsive communication, and real results. The focus has never been on pressure or promises, but on helping people understand their options and move forward with confidence.
           </p>
         </div>
       </div>
