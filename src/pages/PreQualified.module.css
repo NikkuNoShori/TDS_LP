@@ -44,8 +44,9 @@
 }
 
 .heroText {
-  font-size: 1.2rem;
-  opacity: 0.9;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--orange);
 }
 
 .sectionWhite {
