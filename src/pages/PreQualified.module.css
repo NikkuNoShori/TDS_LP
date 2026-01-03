@@ -235,6 +235,16 @@
   text-align: center;
 }
 
+.mapEmbed {
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+  border: 0;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
 @media (min-width: 640px) {
   .trustStats {
     grid-template-columns: repeat(2, 1fr);
@@ -286,5 +296,9 @@
 
   .trustBox {
     padding: 2rem 1.5rem;
+  }
+
+  .mapEmbed {
+    height: 300px;
   }
 }
