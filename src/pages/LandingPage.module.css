@@ -1303,12 +1303,19 @@
   }
   
   .servicesGrid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
-  
-  .serviceCard:nth-child(4),
+
+  .serviceCard {
+    grid-column: span 2;
+  }
+
+  .serviceCard:nth-child(4) {
+    grid-column: 2 / 4;
+  }
+
   .serviceCard:nth-child(5) {
-    grid-column: span 1;
+    grid-column: 4 / 6;
   }
   
   .whyGrid {
