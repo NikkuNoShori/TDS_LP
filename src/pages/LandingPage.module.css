@@ -1016,6 +1016,10 @@
   .oicTextSecond {
     margin-top: 1.5rem;
   }
+
+  .eligibilityDescriptionSecond {
+    margin-top: 1.5rem;
+  }
 }
 
 /* Small Devices (375px - 480px) */
@@ -1189,6 +1193,10 @@
 
   .eligibilityDescription {
     font-size: 0.95rem;
+  }
+
+  .eligibilityDescriptionSecond {
+    margin-top: 1.5rem;
   }
 
   .eligibilityText {

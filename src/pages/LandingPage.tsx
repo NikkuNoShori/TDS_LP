@@ -280,7 +280,10 @@ function Eligibility() {
             Here's How to Know Before You Apply for a Complimentary Consultation
           </p>
           <p className={styles.eligibilityDescription}>
-            This is for individuals and business owners who feel stuck under the weight of tax debt and want a real, professional solution. You may be dealing with IRS notices, mounting penalties, or fear of enforcement actions, and you want someone experienced to step in, explain your options clearly, and handle the process correctly. Our clients are not looking for shortcuts or false promises. They want clarity, protection, and a legitimate path to resolution based on IRS rules.
+            This is for individuals and business owners who feel stuck under the weight of tax debt and want a real, professional solution. You may be dealing with IRS notices, mounting penalties, or fear of enforcement actions, and you want someone experienced to step in, explain your options clearly, and handle the process correctly.
+          </p>
+          <p className={`${styles.eligibilityDescription} ${styles.eligibilityDescriptionSecond}`}>
+            Our clients are not looking for shortcuts or false promises. They want clarity, protection, and a legitimate path to resolution based on IRS rules.
           </p>
           
           <div className={styles.eligibilityList}>
