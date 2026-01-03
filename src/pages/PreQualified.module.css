@@ -166,7 +166,7 @@
 }
 
 .trustBox {
-  background: linear-gradient(135deg, var(--dark-blue) 0%, var(--dark-blue-light) 100%);
+  background: linear-gradient(135deg, #F37021 0%, #FF8C42 100%);
   padding: 3rem 2rem;
   border-radius: 12px;
   text-align: center;
