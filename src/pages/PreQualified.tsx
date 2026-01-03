@@ -6,7 +6,7 @@ import SuccessStories from '../components/SuccessStories';
 export default function PreQualified() {
   return (
     <>
-      <Header />
+      <Header hideCtaButton={true} />
       <main className={styles.main}>
         <section className={styles.hero}>
           <div className={styles.container}>
