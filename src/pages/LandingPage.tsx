@@ -599,6 +599,17 @@ function Summary() {
 }
 
 function ContactForm() {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://link.msgsndr.com/js/form_embed.js';
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <section id="contact" className={`${styles.section} ${styles.contactSection}`}>
       <div className={styles.container}>
@@ -611,10 +622,10 @@ function ContactForm() {
           </p>
           <div className={styles.contactFormContainer}>
             <iframe
-              src="YOUR_GHL_FORM_URL_HERE"
+              src="https://api.leadconnectorhq.com/widget/survey/cs5eWiyNjTmifC1HtcBg"
               className={styles.contactFormIframe}
-              title="Contact Form"
-              frameBorder="0"
+              title="survey"
+              id="cs5eWiyNjTmifC1HtcBg"
               scrolling="no"
             />
           </div>
