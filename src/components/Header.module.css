@@ -28,8 +28,7 @@
   height: 45px;
   width: auto;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  right: 1.5rem;
 }
 
 .headerCta {
