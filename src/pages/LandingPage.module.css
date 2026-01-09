@@ -77,7 +77,7 @@
   min-height: 100svh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
   position: relative;
@@ -168,7 +168,7 @@
   display: flex;
   gap: 1rem;
   justify-content: center;
-  margin-top: 2.5rem;
+  margin-top: 0.25rem;
   flex-wrap: wrap;
 }
 
@@ -1269,6 +1269,7 @@
 
   .hero {
     padding: 8rem 2rem 0;
+    justify-content: center;
   }
 
   .heroAttention {
@@ -1277,6 +1278,10 @@
 
   .heroHeadline {
     font-size: 2.4rem;
+  }
+
+  .mediaFeatures {
+    margin-top: 2.5rem;
   }
 
   .section {
