@@ -73,9 +73,11 @@
   }
 
   .headerCenterImage {
-    height: 32px;
-    max-width: 180px;
+    height: calc(100% - 1rem);
+    max-width: none;
     object-fit: contain;
+    margin-right: auto;
+    order: -1;
   }
 
   .headerCta {
@@ -96,8 +98,8 @@
   }
 
   .headerCenterImage {
-    height: 28px;
-    max-width: 140px;
+    height: calc(100% - 1rem);
+    max-width: none;
   }
 
   .headerCta {
