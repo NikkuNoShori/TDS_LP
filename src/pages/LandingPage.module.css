@@ -976,7 +976,7 @@
 /* Extra Small Devices (320px - 374px) */
 @media (max-width: 374px) {
   .hero {
-    padding: 11rem 0.875rem 1.5rem;
+    padding: 5.5rem 0.875rem 1.5rem;
     min-height: auto;
     justify-content: flex-start;
   }
@@ -987,7 +987,7 @@
   }
 
   .heroAttention {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
   }
 
   .heroHeadline {
@@ -1062,7 +1062,7 @@
   }
 
   .hero {
-    padding: 11rem 1rem 1.5rem;
+    padding: 5.5rem 1rem 1.5rem;
     min-height: auto;
     justify-content: flex-start;
   }
@@ -1073,7 +1073,7 @@
   }
 
   .heroAttention {
-    font-size: 1.35rem;
+    font-size: 0.95rem;
   }
 
   .heroHeadline {
