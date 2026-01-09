@@ -976,7 +976,7 @@
 /* Extra Small Devices (320px - 374px) */
 @media (max-width: 374px) {
   .hero {
-    padding: 5rem 0.875rem 1.5rem;
+    padding: 5.5rem 0.875rem 1.5rem;
     min-height: auto;
     justify-content: flex-start;
   }
@@ -1062,7 +1062,7 @@
   }
 
   .hero {
-    padding: 5rem 1rem 1.5rem;
+    padding: 5.5rem 1rem 1.5rem;
     min-height: auto;
     justify-content: flex-start;
   }
