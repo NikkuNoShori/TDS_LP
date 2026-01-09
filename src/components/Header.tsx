@@ -18,7 +18,7 @@ export default function Header({ hideCtaButton = false }: HeaderProps) {
       <img src={IMAGES.headerCenter} alt="Center banner" className={styles.headerCenterImage} loading="eager" />
       {!hideCtaButton && (
         <a href="/#contact" className={styles.headerCta}>
-          Apply To See If You Qualify
+          Call Now
         </a>
       )}
     </header>
