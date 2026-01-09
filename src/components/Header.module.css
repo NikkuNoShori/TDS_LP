@@ -73,7 +73,7 @@
   }
 
   .headerCenterImage {
-    height: calc(100% - 1rem);
+    height: calc((100% - 1rem) * 0.75);
     max-width: none;
     object-fit: contain;
     margin-right: auto;
@@ -98,7 +98,7 @@
   }
 
   .headerCenterImage {
-    height: calc(100% - 1rem);
+    height: calc((100% - 1rem) * 0.75);
     max-width: none;
   }
 
