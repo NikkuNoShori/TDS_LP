@@ -976,14 +976,14 @@
 /* Extra Small Devices (320px - 374px) */
 @media (max-width: 374px) {
   .hero {
-    padding: 1rem 0.875rem 1rem;
+    padding: 5rem 0.875rem 1.5rem;
     min-height: auto;
     justify-content: flex-start;
   }
 
   .heroContent {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .heroAttention {
@@ -1062,14 +1062,14 @@
   }
 
   .hero {
-    padding: 1rem 1rem 1rem;
+    padding: 5rem 1rem 1.5rem;
     min-height: auto;
     justify-content: flex-start;
   }
 
   .heroContent {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .heroAttention {
