@@ -262,6 +262,10 @@
 }
 
 @media (max-width: 640px) {
+  .hero {
+    padding: 1.2rem 1.5rem;
+  }
+
   .heroTitle {
     font-size: 1.75rem;
   }
