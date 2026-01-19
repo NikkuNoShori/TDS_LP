@@ -139,6 +139,7 @@
   padding: 1.25rem 3rem;
   border-radius: 50px;
   text-decoration: none;
+  text-align: center;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(139, 197, 63, 0.3);
 }
