@@ -16,9 +16,6 @@ export default function PreQualified() {
             <p className={styles.heroSubtitle}>
               Your request has been received and reviewed.
             </p>
-            <p className={styles.heroText}>
-              There's just one quick step required before we place the call.
-            </p>
           </div>
         </section>
 
