@@ -21,20 +21,24 @@ export default function PreQualified() {
 
         <section className={styles.sectionWhite}>
           <div className={styles.container}>
-            <div className={styles.smsBox}>
-              <p className={styles.smsText}>
-                You have received a SMS from <strong>%NUMBER%</strong>...
-              </p>
-              <p className={styles.smsCallout}>
-                Reply "YES" to that text now to confirm your slot.
-              </p>
-            </div>
-
-            <p className={styles.warningText}>
-              To keep consultations available for taxpayers who need them, unconfirmed time slots are automatically released and the call is not placed.
+            <p className={styles.bodyText}>
+              If you'd like to get clarity and answers sooner, our team is available now and you're welcome to call us and get your complimentary consultation by clicking the button below.
             </p>
             <p className={styles.bodyText}>
-              …meaning you will remain in the same uncertain position guessing what the IRS can do to you, without clarity on your options or next steps.
+              There, you will get clear, plain-English guidance on your options.
+            </p>
+
+            <div className={styles.callButtonContainer}>
+              <a href="tel:+18008224122" className={styles.callButton}>
+                Call Now +1 (800) 822-4122
+              </a>
+            </div>
+
+            <p className={styles.bodyText} style={{ marginTop: '2rem' }}>
+              If now isn't a good time to talk, that's completely fine.
+            </p>
+            <p className={styles.bodyText}>
+              A member of our team will be reaching out to you as soon as possible to continue the process and make sure you get the clarity you're looking for.
             </p>
           </div>
         </section>
