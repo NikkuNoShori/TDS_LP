@@ -17,8 +17,8 @@ export default function Header({ hideCtaButton = false }: HeaderProps) {
       </a>
       <img src={IMAGES.headerCenter} alt="Center banner" className={styles.headerCenterImage} loading="eager" />
       {!hideCtaButton && (
-        <a href="/#contact" className={styles.headerCta}>
-          Call Now
+        <a href="tel:+18008224122" className={styles.headerCta}>
+          Call Now +1 (800) 822-4122
         </a>
       )}
     </header>
