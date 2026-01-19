@@ -22,7 +22,7 @@ export default function PreQualified() {
         <section className={styles.sectionWhite}>
           <div className={styles.container}>
             <p className={styles.bodyText}>
-              If you'd like to get clarity and answers sooner, our team is available now and you're welcome to call us and get your complimentary consultation by clicking the button below.
+              <strong>If you'd like to get clarity and answers sooner, our team is available now and you're welcome to call us and get your complimentary consultation by clicking the button below.</strong>
             </p>
             <p className={styles.bodyText}>
               There, you will get clear, plain-English guidance on your options.
