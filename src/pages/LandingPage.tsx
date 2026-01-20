@@ -128,7 +128,7 @@ function Hero({ customHeadline, customAttention }: HeroProps) {
   return (
     <section id="hero" className={styles.hero}>
       <div className={styles.heroContent}>
-        <p className={styles.heroAttention}>
+        <p className={customAttention ? styles.heroAttentionCustom : styles.heroAttention}>
           {customAttention || (
             <>
               Attention: Taxpayers & Business Owners With{' '}
