@@ -121,15 +121,20 @@ const faqs = [
 
 interface HeroProps {
   customHeadline?: string;
+  customAttention?: string;
 }
 
-function Hero({ customHeadline }: HeroProps) {
+function Hero({ customHeadline, customAttention }: HeroProps) {
   return (
     <section id="hero" className={styles.hero}>
       <div className={styles.heroContent}>
         <p className={styles.heroAttention}>
-          Attention: Taxpayers & Business Owners With{' '}
-          <span className={styles.heroHeadlineHighlight}>$10,000+ In IRS Debt</span>
+          {customAttention || (
+            <>
+              Attention: Taxpayers & Business Owners With{' '}
+              <span className={styles.heroHeadlineHighlight}>$10,000+ In IRS Debt</span>
+            </>
+          )}
         </p>
         <h1 className={styles.heroHeadline}>
           {customHeadline || 'One Call Shows You How Clients Eliminated $9,976, $38,000, Even $159,000 In Tax Debt And Whether You Qualify For A Settlement'}
@@ -451,14 +456,15 @@ function ContactForm() {
 
 interface LandingPageProps {
   customHeadline?: string;
+  customAttention?: string;
 }
 
-export default function LandingPage({ customHeadline }: LandingPageProps) {
+export default function LandingPage({ customHeadline, customAttention }: LandingPageProps) {
   return (
     <>
       <Header />
       <main>
-        <Hero customHeadline={customHeadline} />
+        <Hero customHeadline={customHeadline} customAttention={customAttention} />
         <Services />
         <OICExplanation />
         <Benefits />
