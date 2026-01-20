@@ -16,6 +16,7 @@ function App() {
                 <span className={styles.heroHeadlineHighlight}>$10,000+</span> In Back Taxes:
               </>
             }
+            customHeadline="See How Our Clients Cut $9,976, $38,000, Even $159,000 Off Their IRS Debt (And If You Qualify Too)"
           />
         } />
         <Route path="/oic" element={<LandingPage customHeadline="See If You Qualify To Settle Your Tax Debt For Less Using An Offer In Compromise" customAttention="Owe The IRS $10,000+?" />} />
