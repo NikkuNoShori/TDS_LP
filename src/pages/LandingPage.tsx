@@ -420,7 +420,12 @@ function Summary() {
   );
 }
 
-function ContactForm() {
+interface ContactFormProps {
+  customSurveyUrl?: string;
+  customSurveyId?: string;
+}
+
+function ContactForm({ customSurveyUrl, customSurveyId }: ContactFormProps) {
   useEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://link.msgsndr.com/js/form_embed.js';
@@ -431,6 +436,9 @@ function ContactForm() {
       document.body.removeChild(script);
     };
   }, []);
+
+  const surveyUrl = customSurveyUrl || "https://api.leadconnectorhq.com/widget/survey/cs5eWiyNjTmifC1HtcBg";
+  const surveyId = customSurveyId || "cs5eWiyNjTmifC1HtcBg";
 
   return (
     <section id="contact" className={`${styles.section} ${styles.contactSection}`}>
@@ -444,10 +452,10 @@ function ContactForm() {
           </p>
           <div className={styles.contactFormContainer}>
             <iframe
-              src="https://api.leadconnectorhq.com/widget/survey/cs5eWiyNjTmifC1HtcBg"
+              src={surveyUrl}
               className={styles.contactFormIframe}
               title="survey"
-              id="cs5eWiyNjTmifC1HtcBg"
+              id={surveyId}
               scrolling="no"
             />
           </div>
@@ -463,9 +471,11 @@ interface LandingPageProps {
   customAttentionNormal?: React.ReactNode;
   customCtaText?: string;
   customCtaPhone?: string;
+  customSurveyUrl?: string;
+  customSurveyId?: string;
 }
 
-export default function LandingPage({ customHeadline, customAttention, customAttentionNormal, customCtaText, customCtaPhone }: LandingPageProps) {
+export default function LandingPage({ customHeadline, customAttention, customAttentionNormal, customCtaText, customCtaPhone, customSurveyUrl, customSurveyId }: LandingPageProps) {
   return (
     <>
       <Header />
@@ -479,7 +489,7 @@ export default function LandingPage({ customHeadline, customAttention, customAtt
         <Eligibility />
         <AboutUs />
         <ComparisonTable />
-        <ContactForm />
+        <ContactForm customSurveyUrl={customSurveyUrl} customSurveyId={customSurveyId} />
         <FAQ />
         <Summary />
       </main>
