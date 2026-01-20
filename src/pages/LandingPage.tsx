@@ -119,7 +119,11 @@ const faqs = [
   },
 ];
 
-function Hero() {
+interface HeroProps {
+  customHeadline?: string;
+}
+
+function Hero({ customHeadline }: HeroProps) {
   return (
     <section id="hero" className={styles.hero}>
       <div className={styles.heroContent}>
@@ -128,7 +132,7 @@ function Hero() {
           <span className={styles.heroHeadlineHighlight}>$10,000+ In IRS Debt</span>
         </p>
         <h1 className={styles.heroHeadline}>
-          One Call Shows You How Clients Eliminated $9,976, $38,000, Even $159,000 In Tax Debt And Whether You Qualify For A Settlement
+          {customHeadline || 'One Call Shows You How Clients Eliminated $9,976, $38,000, Even $159,000 In Tax Debt And Whether You Qualify For A Settlement'}
         </h1>
         <a href="#contact" className={styles.heroCta}>
           Apply To See If You Qualify
@@ -445,12 +449,16 @@ function ContactForm() {
   );
 }
 
-export default function LandingPage() {
+interface LandingPageProps {
+  customHeadline?: string;
+}
+
+export default function LandingPage({ customHeadline }: LandingPageProps) {
   return (
     <>
       <Header />
       <main>
-        <Hero />
+        <Hero customHeadline={customHeadline} />
         <Services />
         <OICExplanation />
         <Benefits />
