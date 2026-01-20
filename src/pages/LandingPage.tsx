@@ -123,9 +123,11 @@ interface HeroProps {
   customHeadline?: string;
   customAttention?: string;
   customAttentionNormal?: React.ReactNode;
+  customCtaText?: string;
+  customCtaPhone?: string;
 }
 
-function Hero({ customHeadline, customAttention, customAttentionNormal }: HeroProps) {
+function Hero({ customHeadline, customAttention, customAttentionNormal, customCtaText, customCtaPhone }: HeroProps) {
   return (
     <section id="hero" className={styles.hero}>
       <div className={styles.heroContent}>
@@ -140,8 +142,8 @@ function Hero({ customHeadline, customAttention, customAttentionNormal }: HeroPr
         <h1 className={styles.heroHeadline}>
           {customHeadline || 'One Call Shows You How Clients Eliminated $9,976, $38,000, Even $159,000 In Tax Debt And Whether You Qualify For A Settlement'}
         </h1>
-        <a href="#contact" className={styles.heroCta}>
-          Apply To See If You Qualify
+        <a href={customCtaPhone ? `tel:${customCtaPhone}` : "#contact"} className={styles.heroCta}>
+          {customCtaText || "Apply To See If You Qualify"}
         </a>
         <p className={styles.heroCtaSubtext}>100% Complimentary Consultation. No Commitments.</p>
 
@@ -459,14 +461,16 @@ interface LandingPageProps {
   customHeadline?: string;
   customAttention?: string;
   customAttentionNormal?: React.ReactNode;
+  customCtaText?: string;
+  customCtaPhone?: string;
 }
 
-export default function LandingPage({ customHeadline, customAttention, customAttentionNormal }: LandingPageProps) {
+export default function LandingPage({ customHeadline, customAttention, customAttentionNormal, customCtaText, customCtaPhone }: LandingPageProps) {
   return (
     <>
       <Header />
       <main>
-        <Hero customHeadline={customHeadline} customAttention={customAttention} customAttentionNormal={customAttentionNormal} />
+        <Hero customHeadline={customHeadline} customAttention={customAttention} customAttentionNormal={customAttentionNormal} customCtaText={customCtaText} customCtaPhone={customCtaPhone} />
         <Services />
         <OICExplanation />
         <Benefits />

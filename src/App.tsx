@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/call" element={<LandingPage />} />
+        <Route path="/call" element={<LandingPage customCtaText="Call Now (866) 999-2007" customCtaPhone="8669992007" />} />
         <Route path="/backtaxes" element={
           <LandingPage
             customAttentionNormal={
