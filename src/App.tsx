@@ -22,7 +22,7 @@ function App() {
         } />
         <Route path="/oic" element={<LandingPage customHeadline="See If You Qualify To Settle Your Tax Debt For Less Using An Offer In Compromise" customAttention="Owe The IRS $10,000+?" />} />
         <Route path="/prequalified" element={<PreQualified />} />
-        <Route path="/callprequalified" element={<PreQualified />} />
+        <Route path="/callprequalified" element={<PreQualified phoneNumber="+18669992007" buttonText="Call Now (866) 999-2007" />} />
       </Routes>
     </BrowserRouter>
   );

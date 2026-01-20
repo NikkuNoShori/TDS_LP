@@ -3,7 +3,12 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SuccessStories from '../components/SuccessStories';
 
-export default function PreQualified() {
+interface PreQualifiedProps {
+  phoneNumber?: string;
+  buttonText?: string;
+}
+
+export default function PreQualified({ phoneNumber = '+18008224122', buttonText = 'Call Now +1 (800) 822-4122' }: PreQualifiedProps) {
   return (
     <>
       <Header hideCtaButton={true} />
@@ -29,8 +34,8 @@ export default function PreQualified() {
             </p>
 
             <div className={styles.callButtonContainer}>
-              <a href="tel:+18008224122" className={styles.callButton}>
-                Call Now +1 (800) 822-4122
+              <a href={`tel:${phoneNumber}`} className={styles.callButton}>
+                {buttonText}
               </a>
             </div>
 
