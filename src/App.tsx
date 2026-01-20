@@ -8,6 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/call" element={<LandingPage />} />
         <Route path="/backtaxes" element={
           <LandingPage
             customAttentionNormal={
