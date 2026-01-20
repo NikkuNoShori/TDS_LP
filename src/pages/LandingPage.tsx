@@ -122,14 +122,15 @@ const faqs = [
 interface HeroProps {
   customHeadline?: string;
   customAttention?: string;
+  customAttentionNormal?: React.ReactNode;
 }
 
-function Hero({ customHeadline, customAttention }: HeroProps) {
+function Hero({ customHeadline, customAttention, customAttentionNormal }: HeroProps) {
   return (
     <section id="hero" className={styles.hero}>
       <div className={styles.heroContent}>
         <p className={customAttention ? styles.heroAttentionCustom : styles.heroAttention}>
-          {customAttention || (
+          {customAttention || customAttentionNormal || (
             <>
               Attention: Taxpayers & Business Owners With{' '}
               <span className={styles.heroHeadlineHighlight}>$10,000+ In IRS Debt</span>
@@ -457,14 +458,15 @@ function ContactForm() {
 interface LandingPageProps {
   customHeadline?: string;
   customAttention?: string;
+  customAttentionNormal?: React.ReactNode;
 }
 
-export default function LandingPage({ customHeadline, customAttention }: LandingPageProps) {
+export default function LandingPage({ customHeadline, customAttention, customAttentionNormal }: LandingPageProps) {
   return (
     <>
       <Header />
       <main>
-        <Hero customHeadline={customHeadline} customAttention={customAttention} />
+        <Hero customHeadline={customHeadline} customAttention={customAttention} customAttentionNormal={customAttentionNormal} />
         <Services />
         <OICExplanation />
         <Benefits />
