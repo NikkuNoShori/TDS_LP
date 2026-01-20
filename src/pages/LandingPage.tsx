@@ -473,12 +473,14 @@ interface LandingPageProps {
   customCtaPhone?: string;
   customSurveyUrl?: string;
   customSurveyId?: string;
+  customHeaderCtaText?: string;
+  customHeaderCtaPhone?: string;
 }
 
-export default function LandingPage({ customHeadline, customAttention, customAttentionNormal, customCtaText, customCtaPhone, customSurveyUrl, customSurveyId }: LandingPageProps) {
+export default function LandingPage({ customHeadline, customAttention, customAttentionNormal, customCtaText, customCtaPhone, customSurveyUrl, customSurveyId, customHeaderCtaText, customHeaderCtaPhone }: LandingPageProps) {
   return (
     <>
-      <Header />
+      <Header customCtaText={customHeaderCtaText} customCtaPhone={customHeaderCtaPhone} />
       <main>
         <Hero customHeadline={customHeadline} customAttention={customAttention} customAttentionNormal={customAttentionNormal} customCtaText={customCtaText} customCtaPhone={customCtaPhone} />
         <Services />

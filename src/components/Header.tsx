@@ -7,9 +7,14 @@ const IMAGES = {
 
 interface HeaderProps {
   hideCtaButton?: boolean;
+  customCtaText?: string;
+  customCtaPhone?: string;
 }
 
-export default function Header({ hideCtaButton = false }: HeaderProps) {
+export default function Header({ hideCtaButton = false, customCtaText, customCtaPhone }: HeaderProps) {
+  const ctaText = customCtaText || 'Call Now +1 (800) 822-4122';
+  const ctaPhone = customCtaPhone || '+18008224122';
+
   return (
     <header className={styles.header}>
       <a href="/">
@@ -17,8 +22,8 @@ export default function Header({ hideCtaButton = false }: HeaderProps) {
       </a>
       <img src={IMAGES.headerCenter} alt="Center banner" className={styles.headerCenterImage} loading="eager" />
       {!hideCtaButton && (
-        <a href="tel:+18008224122" className={styles.headerCta}>
-          Call Now +1 (800) 822-4122
+        <a href={`tel:${ctaPhone}`} className={styles.headerCta}>
+          {ctaText}
         </a>
       )}
     </header>
