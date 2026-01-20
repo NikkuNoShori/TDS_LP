@@ -7,6 +7,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+        <Route path="/oic" element={<LandingPage />} />
         <Route path="/prequalified" element={<PreQualified />} />
       </Routes>
     </BrowserRouter>
